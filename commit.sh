@@ -6,8 +6,8 @@
 # Distributed under terms of the GPL license.
 #
 
-sed -i "" -e "s#http://localhost:4000#https://www.lijiaocn.com#g" ./sitemap.xml
-sed -i "" -e "s#http://localhost:4000#https://www.lijiaocn.com#g" ./feed.xml
+sed -i "" -e "s#http://localhost:4011#https://www.lijiaocn.com#g" ./sitemap.xml
+sed -i "" -e "s#http://localhost:4011#https://www.lijiaocn.com#g" ./feed.xml
 git add .
 git commit -m "m"
 git push 
